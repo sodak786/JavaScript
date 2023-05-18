@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Objects</title>
+</head>
+
+<body>
+  <script>
+    /*
+
+    const product = {
+      name: "sox",
+      price: 223
+    };
+    console.log(product);
+    console.log(product.name);
+
+    product.name = "cotton picker";
+    console.log(product.name);
+
+    product.newProperty = true; 
+    console.log(product);
+
+    delete product.newProperty;
+    console.log(product);
+    
+
+    const product2 = {
+      name: "basketball",
+      "delivery-time": "8 weeks",
+      price: 94,
+      stars: 9,
+      rating: {
+        stars: 5,
+        count: 33
+      },
+      fun: function funkce() {
+        console.log("function inside an object");
+      }
+    }
+    console.log(product2);
+    const product3 = JSON.stringify(product2);
+    console.log(product3);
+    localStorage.setItem("product", JSON.stringify(product2));
+    console.log(localStorage.getItem(JSON.parse("product")));
+    */
+
+    const object4 = {
+      message: "Good job!",
+      price: 414
+    };
+    //const message = object4.message;
+    const {message, price} = object4;
+    console.log(message)
+    console.log(price)
+
+    const object5 = {
+      //message: message
+      message,//"shorthand property"
+      //method: function funkce(){
+      //  console.log("method");
+      //}
+      method(){
+        console.log("method");
+      }
+    };
+    console.log(object5);
+    object5.method();
+  </script>
+</body>
+
+</html>
