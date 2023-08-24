@@ -5,15 +5,9 @@ const body = document.querySelector('body');
 
 // Display Mobile Menu
 const mobileMenu = () => {
-  menu.classList.add('is-active');
-  menuLinks.classList.add('active');
-  body.classList.add('active');
-
-  setTimeout(() => {
-    menu.classList.remove('is-active');
-  menuLinks.classList.remove('active');
-  body.classList.remove('active');
-  }, 2000);
+  menu.classList.toggle('is-active');
+  menuLinks.classList.toggle('active');
+  body.classList.toggle('active');
 };
 
 menu.addEventListener('click', mobileMenu);
