@@ -1,0 +1,13 @@
+button{
+  border:none;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+}
+.is-toggled{
+  background-color: rgb(197, 197, 197);
+  color: black;
+}
