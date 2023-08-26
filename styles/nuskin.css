@@ -1,12 +1,12 @@
 :root{
-  --red:#f9032f;
+  --green:#041f0a;
   --cyan:#07914c;
   --white:#fff;
   --black:#000;
   --umber: 	#635147;
   --sienna: #882d17;
   --ochre: 	#cc7722;
-  --brown: #a52a2a;
+  --lily: #a52a45;
 }
 
 *{
@@ -17,7 +17,7 @@
 }
 
 .navbar{
-  background: var(--umber);
+  background: var(--green);
   height: 60px;
   padding: 0.5rem calc((100vw -1200px)/2);
   display: flex;
@@ -40,7 +40,7 @@
 }
 
 .navbar__link:hover{
-  color: var(--cyan);
+  color: var(--lily);
 }
 
 @media screen and (max-width: 768px){
@@ -70,7 +70,7 @@
     z-index: 99;
     height: 100vh;
     font-size: 1.5rem;
-    background-color: var(--umber);
+    background-color: var(--green);
     position:absolute;
     width: 100%;
     transition: 0.3s ease-in;
@@ -104,4 +104,17 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+}
+
+/* Hero Section */
+.hero{
+  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/soyoung-han-XdI6PbuvCRk-unsplash\ \(1\).jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:multiply ;
+  padding: 0.5rem calc((100vw -1200px)/2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
