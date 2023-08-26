@@ -17,7 +17,7 @@
 }
 
 .navbar{
-  background: var(--cyan);
+  background: var(--umber);
   height: 60px;
   padding: 0.5rem calc((100vw -1200px)/2);
   display: flex;
@@ -44,11 +44,39 @@
 }
 
 @media screen and (max-width: 768px){
+  body.active{
+    overflow-y: hidden;
+    overflow-y: hidden;
+  }
+
   .navbar__link{
-    display: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar__menu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 100px);;
+    position: absolute;
+    width: 100%;
+    top: -1000px;
+  }
+
+  .navbar__menu.active{
+    top: 100%;
+    opacity: 1;
+    z-index: 99;
+    height: 100vh;
+    font-size: 1.5rem;
+    background-color: var(--umber);
+    position:absolute;
+    width: 100%;
+    transition: 0.3s ease-in;
   }
   
-  .navbar__toggle .bar{
+  #mobile-menu .bar{
     width: 25px;
     height: 3px;
     margin: 5px auto;
