@@ -117,7 +117,7 @@ body{
 
 /* Hero Section */
 .hero{
-  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/nuskin_image2.jpg');
+  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url('/images/modrePozadi.jpg');
   height: 100vh;
   background-position: center;
   background-size: cover;
