@@ -21,7 +21,6 @@
 
 body{
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .navbar{
@@ -161,4 +160,40 @@ body{
  
 .hero-content .button:hover{
   cursor: pointer;
+}
+
+
+/* Footer Section */
+.footer{
+  top: 100%;
+  position: relative;
+  height: 30vh;
+  background-color: #03182B;
+  padding: 0.5rem calc((100vw -1200px)/2);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content{
+  width: 100vw;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+.footer-content p{
+  position: absolute;
+  color: white;
+  top: 30%;
+  font-size: clamp(1.5rem, 3vw, 3rem);
+
+}
+.footer-content div{
+  color: white;
+  font-size: clamp(0.8rem, 2.5vw, 2rem);
+  margin-right: 1rem;
+}
+img{
+  width: 2rem;
 }
