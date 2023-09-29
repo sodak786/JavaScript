@@ -166,32 +166,32 @@ body{
 /* Footer Section */
 .footer{
   top: 100%;
-  position: relative;
   height: 30vh;
-  background-color: #03182B;
-  padding: 0.5rem calc((100vw -1200px)/2);
+  background: #03182B;
+  padding: 5rem calc((100vw -1100px)/2);
   display: flex;
-  justify-content: center;
+  position: relative;
+  
 }
 
 .footer-content{
   width: 100vw;
-  display: flex;
-  align-items:center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 
-.footer-content p{
+.footer-content h1{
   position: absolute;
   color: white;
   top: 30%;
   font-size: clamp(1.5rem, 3vw, 3rem);
+  margin-bottom: 4rem;
 
 }
-.footer-content div{
+.footer-content p{
   color: white;
-  font-size: clamp(0.8rem, 2.5vw, 2rem);
+  font-size: clamp(0.8rem, 1.5vw, 1.5rem);
   margin-right: 1rem;
 }
 img{
