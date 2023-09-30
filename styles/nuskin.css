@@ -16,7 +16,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -26,7 +26,7 @@ body{
 }
 
 .navbar{
-  background: var(--blue);
+  background: #0a2136;
   height: 60px;
   padding: 0.5rem calc((100vw -1200px)/2);
   display: flex;
@@ -49,13 +49,13 @@ body{
 }
 
 .navbar__link:hover{
-  color: var(--light-blue);
+  color: #194d7eb4;
 }
 
 @media screen and (max-width: 768px){
   body.active{
     overflow-x: hidden;
-    overflow-y: hidden;
+    
   }
 
   .navbar__menu{
@@ -74,7 +74,7 @@ body{
     z-index: 99;
     height: 100vh;
     font-size: 1.5rem;
-    background-color: var(--blue);
+    background-color: #0a2136;
     position:absolute;
     width: 100%;
     transition: 0.3s ease-in-out;
@@ -131,37 +131,46 @@ body{
 .hero-content{
   color: var(--white);
   padding: 3rem 1rem;
-  line-height: 1;
+  line-height: 1.2;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   top: 10%;
 }
 
 .hero-content h1{
-  font-size: clamp(3rem, 8vw, 7rem);
+  font-family: 'Kanit', sans-serif;
+  font-size: clamp(3rem, 6vw, 5rem);
   text-transform: uppercase;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
   text-align: center;
 }
 
-.hero-content p{
-  font-size: clamp(1rem, 3vw, 3rem);
-  margin-bottom: 10rem;
-}
-
 .hero-content a{
-  background-color: #1e4264;
+  background-color: #1e426418;
   border: none;
-  font-size: clamp(2rem, 2.5vw, 2rem);
+  font-size: clamp(1.5rem, 2.0vw, 2rem);
   color: white;
   border-radius: 90px;
   padding: clamp(1rem, 2vw, 2rem);
+  text-decoration: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.342);
+}
 
+.hero-content .desc{
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  margin-bottom: 2rem;
+  min-width: 25rem;
+  max-width: 40rem;
+  text-align: center;
+  color: #ffffffa6;
 }
  
 .hero-content .button:hover{
   cursor: pointer;
+  background-color: #1e42641f;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.418);
 }
 
 
@@ -173,6 +182,18 @@ body{
   padding: 5rem calc((100vw -1100px)/2);
   display: flex;
   justify-content: center;
+}
+
+.spacer{
+  aspect-ratio: 900/600;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("/wave-haikei.svg");
 }
 
 .footer-content{
