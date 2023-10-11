@@ -175,6 +175,19 @@ body{
   justify-content: center;
 }
 
+.spacer{
+  aspect-ratio: 900/600;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -660px;
+}
+
+.layer1 {
+  background-image: url("/wave-haikei.svg");
+}
+
 .footer-content{
   display: grid;
   grid-template-rows:1fr 1fr;

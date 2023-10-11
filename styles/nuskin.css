@@ -190,6 +190,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-top: -660px;
 }
 
 .layer1 {
