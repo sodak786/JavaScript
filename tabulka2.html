@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="Jídelní lístek">Jídelní lístek</h1>
+    <p id="nadpis">Seznam alergenů jednotlivých jídel na vyžádání obsluhy</p>
+    <h2>Od 17.10. 2022 - do 21.10. 2022</h2>
+    <hr></hr> 
+    <h3>CENA MENU (POLÉVKA + HL. JÍDLO) 120,-</h3>
+    <div class="head">
+        <table id="table">
+            <tbody>
+                <tr class="rowOne">
+                    <td rowspan="10" class="pondeli"><strong>P<br>o<br>n<br>d<br>ě<br>l<br>í</strong></td>
+                    <td colspan="9" class="polevka">Polévka</td>
+                    <td></td>
+                </tr>
+                <tr class="rowTwo">
+                    <td colspan="9">Frankfurtská</td>
+                    <td>25,-</td>
+                </tr>
+                <tr class="rowThree">
+                    <td colspan="9">Hlavní jídla</td>
+                    <td></td>
+                </tr>
+                <tr class="rowFour">
+                    <td colspan="9">Kuře na paprice, těstoviny</td>
+                    <td>110,-</td>
+                </tr>
+                <tr class="rowFive">
+                    <td colspan="9">Rizoto po srvsku, sýr, okurka</td>
+                    <td>110,-</td>
+                </tr>
+                <tr class="rowSix">
+                    <td colspan="9">Čevabčiči</td>
+                    <td>110,-</td>
+                </tr>
+                <tr class="rowSeven">
+                    <td>Minutková jídla</td>
+                    <td class="prazdny"></td>
+                    <td>99,-</td>
+                    <td class="prazdny"></td>
+                    <td>Přílohy</td>
+                    <td class="prazdny"></td>
+                    <td>Brambor</td>
+                    <td class="prazdny"></td>
+                    <td>25,-</td>
+                    <td class="prazdny"></td>
+                </tr>
+                <tr class="rowEight">
+                    <td>Kuřecí řízek bez přílohy</td>
+                    <td class="prazdny"></td>
+                    <td>99,-</td>
+                    <td class="prazdny"></td>
+                    <td class="prazdny"></td>
+                    <td class="prazdny"></td>
+                    <td>Krokety</td>
+                    <td class="prazdny"></td>
+                    <td>25,-</td>
+                    <td class="prazdny"></td>
+                </tr>
+                <tr class="rowNine">
+                    <td>Smažený sýr</td>
+                    <td class="prazdny"></td>
+                    <td>99,-</td>
+                    <td class="prazdny"></td>
+                    <td class="prazdny"></td>
+                    <td class="prazdny"></td>
+                    <td>Hranolky</td>
+                    <td class="prazdny"></td>
+                    <td>25,-</td>
+                    <td></td>
+                </tr>
+            </tbody>
+          </table> 
+    </div>
+</body>
+<style>
+    table,tr,td{
+        border: 1px solid;
+    }
+
+    h1, h2, h3, #nadpis{
+        text-align: center;
+    }
+    table{
+        margin: auto;        
+        border-spacing: 0px;
+    }
+   
+    .prazdny{
+        width: 25px;
+    }
+    tr td:first-child{
+        width: 300px;
+        padding-left: 10px;
+    }
+    
+    .pondeli{
+        padding: 20px;
+        width: 10px !important;
+        text-align: center;
+    }
+    .polevka{
+        padding-left: 10px;
+    }
+</style>
+</html>
