@@ -143,8 +143,9 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(11, 40px);
-  grid-column-gap: 2rem;
-  justify-items: center;
+  grid-row-gap: clamp(2rem, 2vw, 3rem);
+  grid-column-gap: 50px;
+  align-items: center;
 }
 
 .hero-content h1{
@@ -154,16 +155,32 @@ body{
   margin-bottom: 4rem;
 }
 
-.hero-content p{
-  font-size: clamp(1rem, 3vw, 3rem);
-  margin-bottom: 3rem;
+.hero-content .member-links{
+  text-decoration: none;
+  background-color: #1e426418;
+  border: none;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: white;
+  border-radius: 90px;
+  padding: clamp(1rem, 1vw, 2rem);
+  text-decoration: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.342);
+  width: clamp(140px, 3vw, 180px);
+  max-width: ;
+  justify-items: center;
 }
 
-.hero-content a{
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
-  color: #fff;
-  text-decoration: none;
+.hero-content a:hover{
+  cursor: pointer;
+  background-color: #1e42641f;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.212);
 }
+
+.hero-content .cze{
+  background-image: url('/images/Flag_of_the_Czech_Republic.svg.png');
+  background-position: center;
+}
+
 
 /* Footer Section */
 .footer{
@@ -181,11 +198,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-<<<<<<< HEAD
-  margin-top: -687px;
-=======
   margin-top: -660px;
->>>>>>> 6bc4ac90b73da704539d35e02b58815b43dca90e
 }
 
 .layer1 {
