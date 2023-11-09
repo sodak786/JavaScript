@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#header{
+  top: 0;
+  width: 100vw;
+  height: 250px;
+  background-color: rgb(122, 70, 70);
+  display: flex;
+  align-items: center;
+}
+#header h1{
+  position: absolute;
+  left: 10vw;
+  color: white;
+  font-size: 50px;
+}

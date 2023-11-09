@@ -13,8 +13,3 @@ const mobileMenu = () => {
 menu.addEventListener('click', mobileMenu);
 
 
-const button = document.querySelector(".button");
-const signUp = function(){
-  window.location.href = "/signup.html"
-}
-button.addEventListener('click', signUp);

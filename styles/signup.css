@@ -166,7 +166,6 @@ body{
   text-decoration: none;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.342);
   width: clamp(140px, 3vw, 180px);
-  max-width: ;
   justify-items: center;
 }
 
@@ -175,13 +174,6 @@ body{
   background-color: #1e42641f;
   box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.212);
 }
-
-.hero-content .cze{
-  background-image: url('/images/Flag_of_the_Czech_Republic.svg.png');
-  background-position: center;
-}
-
-
 /* Footer Section */
 .footer{
   top: 100%;

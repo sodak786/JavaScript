@@ -141,7 +141,7 @@ body{
 
 .hero-content h1{
   font-family: 'Kanit', sans-serif;
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(50px, 6vw, 80px);
   text-transform: uppercase;
   margin-bottom: 0.2rem;
   text-align: center;
@@ -150,7 +150,7 @@ body{
 .hero-content a{
   background-color: #1e426418;
   border: none;
-  font-size: clamp(1.5rem, 2.0vw, 2rem);
+  font-size: clamp(30px, 1vw, 40px);
   color: white;
   border-radius: 90px;
   padding: clamp(1rem, 2vw, 2rem);
@@ -159,10 +159,10 @@ body{
 }
 
 .hero-content .desc{
-  font-size: clamp(1rem, 2vw, 1.6rem);
+  font-size: clamp(16px, 1.1vw, 27px);
   margin-bottom: 2rem;
-  min-width: 25rem;
-  max-width: 40rem;
+  min-width: 350px;
+  max-width: 500px;
   text-align: center;
   color: #ffffffa6;
 }
@@ -207,7 +207,7 @@ body{
   justify-self: center;
   align-self: center;
   color: #ffffffb9;
-  font-size: clamp(1.5rem, 2.0vw, 2rem);
+  font-size: clamp(15px, 1.7vw, 27px);
 }
 
 .footer-content .links{
@@ -217,6 +217,6 @@ body{
   gap: 1.5rem;
   color: #ffffff75;
   line-height: 1.5;
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(13px, 1.6vw, 18px);
 }
 
