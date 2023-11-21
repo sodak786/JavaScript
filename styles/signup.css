@@ -57,6 +57,7 @@ body{
 @media screen and (max-width: 768px){
   body.active{
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .navbar__menu{
@@ -207,7 +208,7 @@ body{
   justify-self: center;
   align-self: center;
   color: #ffffffb9;
-  font-size: clamp(1.5rem, 2.0vw, 2rem);
+  font-size: clamp(15px, 1.7vw, 27px);
 }
 
 .footer-content .links{
@@ -217,5 +218,5 @@ body{
   gap: 1.5rem;
   color: #ffffff75;
   line-height: 1.5;
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(13px, 1.6vw, 18px);
 }

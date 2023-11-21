@@ -13,3 +13,13 @@ const mobileMenu = () => {
 menu.addEventListener('click', mobileMenu);
 
 
+const contact = document.querySelector(".contactHref");
+const sendToContact = () => {
+  if (menu.classList.contains("is-active")){
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+    body.classList.toggle('active');
+    window.location.href = "/signup.html#contact"
+  }
+}
+contact.addEventListener('click', sendToContact);
